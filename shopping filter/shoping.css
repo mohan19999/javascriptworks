@@ -1,0 +1,554 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+.mainbox{
+
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.mainbox div{   
+             padding: 10px;
+             display: flex;
+             flex-wrap: wrap;
+             margin: 10px;
+             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+             width: 300px;
+}
+
+.mainbox h1{
+                 text-align: center;
+                 font-size: 22px;
+}
+
+.mainbox a{
+             text-decoration: none;
+             color: black;
+}
+
+
+.mainbox img:hover{
+
+    transform: scale(0.9);
+}
+
+img{  width: 100%;
+     transition: all .3s ease-in-out;
+}
+
+/*------------------------------mens catgry-----------------------------*/
+
+
+.menswear{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.menswear div{   
+    display: flex;
+   flex-wrap: wrap;
+    padding: 10px;
+   margin: 20px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   width: 300px;
+}
+
+
+.menswear h1{
+    text-align: center;
+    font-size: 24px;
+}
+
+.menswear img:hover{
+
+    transform: scale(0.9);
+}
+
+img{  width: 100%;
+     transition: all .3s ease-in-out;
+}
+
+
+.menswear a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*-----------------------------womens catgry-------------------------*/
+
+
+.womenswear{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.womenswear div{   
+    padding: 10px;
+   margin: 20px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   width: 300px;
+}
+
+
+.womenswear h1{
+    text-align: center;
+    font-size: 24px;
+}
+
+.womenswear img:hover{
+
+    transform: scale(0.9);
+}
+
+img{  width: 100%;
+     transition: all .3s ease-in-out;
+}
+
+
+a{
+     text-decoration: none;
+     color: black;
+}
+/*------------------------------kids ctrgery----------------------*/
+
+
+.kidswear{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.kidswear div{   
+    padding: 10px;
+   margin: 30px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   width: 300px;
+  
+}
+
+
+.kidswear h1{
+    text-align: center;
+    font-size: 24px;
+}
+
+.kidswear img:hover{
+
+    transform: scale(0.9);
+}
+
+img{  width: 100%;
+     transition: all .3s ease-in-out;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*-----------------------mens topwear---------------------*/
+
+.fbar{
+        
+        padding: 20px;
+        
+background: #B962A5;
+background: linear-gradient(135deg, #B962A5, #2C8AE8);
+}
+
+.fbar input:hover{ background-color: plum;
+              
+}
+
+.myfilter{
+           background-color: white;
+           color: black;
+           font-weight: bold;
+}
+
+.myfilter:hover{
+    background: linear-gradient(135deg, #B962A5, #2C8AE8);
+    color: white;
+}
+
+.main1box img:hover{
+
+    transform: scale(0.9);
+}
+
+.main1box{
+           display:flex;
+           flex-wrap: wrap;
+           /* justify-content: space-around; */
+           
+          
+}
+
+.main1box h3{
+                 font-size: 20px; 
+                 text-align: center; 
+
+}
+
+.main1box h5{
+    
+    text-align: center; 
+
+}
+
+
+.box{
+    border-radius: 2%;
+    margin: 1%;
+    padding: 1%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 380px;
+    width: 220px;
+    margin-top: 20px;
+}
+
+
+/* --------------mens bottom wear ----------*/
+
+.mbottommain{
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+}
+
+.submbottom{
+               height: 400px;
+               width: 220px;
+                margin: 2%;
+                padding: 2%;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+              
+
+}
+
+
+
+.submbottom h5{
+                text-align: center;
+                font-size: 15px;
+}
+
+
+.submbottom h3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.submbottom img:hover{
+    transform: scale(0.9);
+              
+}
+
+
+.fbar{
+        
+    padding: 20px;
+    
+background: #B962A5;
+background: linear-gradient(135deg, #B962A5, #2C8AE8);
+}
+
+.fbar input:hover{ background-color: plum;
+          
+}
+
+
+/*---------------------Mens foot wear---------------------*/
+
+
+.menfootmain{
+                display: flex;
+                flex-wrap: wrap;
+}
+
+.submfoot{
+              margin: 2%;
+              padding: 2%;
+              width: 250px;
+              height: 350px;
+              
+              box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.submfoot img{
+    height: 250px;
+}
+
+.submfoot img:hover{
+                       transform: scale(0.9);
+}
+
+.submfoot h3{
+                text-align: center;
+                font-size: 22px;
+                margin-top: 10px;
+}
+
+.submfoot h5{
+       text-align: center;
+    font-size: 15px;
+}
+
+
+/*-----------------Women Top Wear ---------------------*/
+
+
+i{
+    color: black;
+}
+.wmentop{
+           display: flex;
+           flex-wrap: wrap;
+}
+
+.subwtop{
+          width: 250px;
+          height: 400px;
+          margin: 2%;
+          padding: 1%;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.subwtop img{
+             height: 300px;
+}
+
+.subwtop img:hover{
+                      transform:scale(0.9);
+}
+
+.subwtop h3{
+                text-align: center;
+                font-size: 22px;
+                margin-top: 10px;
+}
+
+
+.subwtop h5{
+    text-align: center;
+    font-size: 15px;
+}
+
+
+/*---------------women Bottom wear---------------*/
+
+
+
+.wmenbottom{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subwbtm{
+   width: 250px;
+   height: 400px;
+   margin: 2%;
+   padding: 1%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.subwbtm img{
+      height: 300px;
+}
+
+.subwbtm img:hover{
+               transform:scale(0.9);
+}
+
+.subwbtm h3{
+         text-align: center;
+         font-size: 22px;
+         margin-top: 10px;
+}
+
+
+.subwbtm h5{
+text-align: center;
+font-size: 15px;
+}
+
+/*---------------------------Women Foot Wear-----------------*/
+
+
+
+.wmenfootwear{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subwfoot{
+   width: 250px;
+   height: 400px;
+   margin: 2%;
+   padding: 1%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.subwfoot img{
+      height: 300px;
+}
+
+.subwfoot img:hover{
+               transform:scale(0.9);
+}
+
+.subwfoot h3{
+         text-align: center;
+         font-size: 22px;
+         margin-top: 10px;
+}
+
+
+.subwfoot h5{
+text-align: center;
+font-size: 15px;
+}
+
+
+/*---------------kids top Wear ------------------*/
+
+
+.kidstopwear{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subktop{
+   width: 250px;
+   height: 400px;
+   margin: 2%;
+   padding: 1%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.subktop img{
+      height: 300px;
+}
+
+.subktop img:hover{
+               transform:scale(0.9);
+}
+
+.subktop h3{
+         text-align: center;
+         font-size: 22px;
+         margin-top: 10px;
+}
+
+
+.subktop h5{
+text-align: center;
+font-size: 15px;
+}
+
+/*---------------kids bottom Wear ------------------*/
+
+
+.kidsbtmwear{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subkbottom{
+   width: 250px;
+   height: 400px;
+   margin: 2%;
+   padding: 1%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.subkbottom img{
+      height: 300px;
+}
+
+.subkbottom img:hover{
+               transform:scale(0.9);
+}
+
+.subkbottom h3{
+         text-align: center;
+         font-size: 22px;
+         margin-top: 10px;
+}
+
+
+.subkbottom h5{
+text-align: center;
+font-size: 15px;
+}
+
+/*---------------kids Foot Wear ------------------*/
+
+
+.kidsfootwear{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subkfoot{
+   width: 250px;
+   height: 400px;
+   margin: 2%;
+   padding: 1%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.subkfoot img{
+      height: 300px;
+}
+
+.subkfoot img:hover{
+               transform:scale(0.9);
+}
+
+.subkfoot h3{
+         text-align: center;
+         font-size: 22px;
+         margin-top: 10px;
+}
+
+
+.subkfoot h5{
+text-align: center;
+font-size: 15px;
+}
+
+i{
+    margin-left: 20px;
+    margin-top: 40px;
+    box-shadow: rgba(231, 54, 54, 0.35) 0px 5px 15px;
+    width: 80px;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight:bold;
+    font-size: 15px;
+
+}

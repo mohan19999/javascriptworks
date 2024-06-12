@@ -1,0 +1,432 @@
+.mainpage{
+          background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+          opacity: 80%;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+           display: flex;
+           text-align: center;
+          justify-content: center;
+          height: 1000px;
+         
+        
+           
+}
+
+.log{
+    background-image: linear-gradient(to bottom, #5c45c7, #4f55ce, #4464d3, #3c70d6, #3a7cd7, #3d7dd8, #417eda, #447fdb, #4e75dd, #5c69dc, #6e5cd9, #804bd3);
+       color: white;
+       text-align: center;      
+       border-radius: 20px;
+       padding-top: 50px;
+       width: 30%;
+       height:300px;
+       margin-top: 250px;
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     
+}
+
+.log ::placeholder{
+     color: white;
+     border-bottom: 2px solid #fff;
+
+}
+
+.log input{
+         
+          
+            text-align: center;
+            width: 200px;
+            height: 20px;
+            outline: none;
+            border: none;
+            background: transparent;
+           
+            
+}
+.log button{
+             width: 150px;
+             height: 30px;
+             border-radius: 26px;
+             background-color: #46eefa;
+}
+
+.log button:hover{
+             background-color:#4f55ce;
+             color: white;
+}
+
+/* ---------------------------next page csss-------------------------*/
+
+body{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 1000px;
+     width: 100%;
+}
+
+.acount01{  display: inline-flex;
+             justify-content: center;
+              width: 100%;        
+             color: white;
+             text-align: center;
+           
+           
+
+
+           
+           
+
+}
+
+
+ .new{
+                 background-color: #417eda;
+                 height: 300px;
+                 width: 400px;
+                 margin: 10px;
+                border-radius: 26px;
+                margin-top: 250px;
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+                
+                                                           
+}
+
+.acount01 button{ width: 80px;
+               height: 30px;
+              
+               border-radius: 20px;
+               background-color: #8aa7ec;
+               font-family: Georgia, 'Times New Roman', Times, serif;
+               font-weight: bold;
+         
+}
+.acount01 h1{
+              color:#fff;
+              margin-top: 100px;
+              padding: 10px;
+             
+}
+
+
+/*------------------------------details page-------------------------------*/
+
+
+.detailmain{
+     display: flex;
+     justify-content: center;
+    margin-top: 160px;
+}
+
+.detail01{
+
+    background: #ba83ca;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 500px;
+    height: 500px;
+    color: white;
+    text-align: center;
+   
+ 
+    
+     
+}
+.detail01 h1{
+              background-color: #3a7cd7;
+             margin-top: 20px;
+             box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.detail01 h3{
+               margin-top: 30px;
+               color: black;
+               font-size: 22px;
+      
+}
+
+.detail01 button{
+                 
+                margin-top: 50px;
+                width: 200px;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                font-weight: 900;
+                background-color: #3fa1e3;
+                border-radius: 10px;
+                border: none;
+}
+
+
+
+
+.main01{
+    margin-left:32%;
+    width: 100%;
+}
+
+
+
+.pop{     width: 300px;
+    height: 50px;
+    background-color: #46a5f2;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    text-align: center;
+   padding-top: 10px;
+  margin: 20px;
+  border-radius: 10px;
+ 
+ 
+}
+
+
+.pop input{
+            border:none;
+            border-radius: 10px;
+            background: transparent;
+            outline: none;
+}
+
+.pop button{
+
+       background-color: #ba83ca;
+       border: none;
+       border-radius: 10px;
+}
+
+
+
+
+.main02{
+    margin-left:32%;
+    width: 100%;
+}
+
+
+
+.creditpop{     width: 300px;
+    height: 50px;
+    background-color: #46a5f2;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    text-align: center;
+   padding-top: 10px;
+  margin: 20px;
+  border-radius: 10px;
+ 
+ 
+}
+
+
+.creditpop input{
+            border:none;
+            border-radius: 10px;
+            background: transparent;
+            outline: none;
+}
+
+.creditpop button{
+
+       background-color: #ba83ca;
+       border: none;
+       border-radius: 10px;
+}
+
+
+
+
+.main03{
+    margin-left:32%;
+    width: 100%;
+}
+
+
+
+.debitpop{     width: 300px;
+    height: 50px;
+    background-color: #46a5f2;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    text-align: center;
+   padding-top: 10px;
+  margin: 20px;
+  border-radius: 10px;
+ 
+ 
+}
+
+
+.debitpop input{
+            border:none;
+            border-radius: 10px;
+            background: transparent;
+            outline: none;
+}
+
+.debitpop button{
+
+       background-color: #ba83ca;
+       border: none;
+       border-radius: 10px;
+}
+
+
+
+
+
+
+.detmain{
+  
+         
+          margin-left:32%;
+          width: 100%;
+        
+         
+}
+
+.pop01{
+         width: 400px;
+         height: 50px;
+         text-align: center;
+        padding-top: 10px;
+        margin: 10px;
+      background-color: #41dfff;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      border-radius: 15px;
+}
+
+
+.pop01 button{
+                 width: 100px;
+                 background-color: #aa8fd8;
+                 border-radius: 15px;
+}
+
+/*---------------------------  credit page----------------------------*/
+
+
+
+.credpage{
+    background-color: #ba83ca;
+    height: 300px;
+    width: 400px;
+    border-radius: 15px;
+    padding: 10px;
+   
+}
+
+.credpage h1{
+      margin-top: 20px;
+      text-align: center;
+}
+
+.credpage input{
+         margin-top: 70px;
+          margin-left: 30%;
+         
+}
+
+.credpage ::placeholder{
+                color: white;
+                font-weight: bolder;
+}
+
+.credpage button{
+        margin-left: 30%;
+        margin-top: 10px;
+
+}
+
+
+
+
+
+.credmain h2{
+
+     color: white;
+     background-color: black;
+     margin-top: 20px;
+     text-align: center;
+     border-radius: 10px;
+    font-size: 20px;
+     
+}
+
+.credmain{
+              display: flex;
+              justify-content: center;
+              margin-top: 100px;
+}
+
+.credmain button{
+
+    background-color: #6a57c1;
+    border-radius: 15px;
+}
+
+.credmain input{
+    border:none;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+}
+
+/*---------------------- debit page--------*/
+
+
+
+.debimain h2{
+
+     color: white;
+     background-color: black;
+     margin-top: 20px;
+     text-align: center;
+     border-radius: 10px;
+    font-size: 20px;
+     
+}
+
+.debpage{
+             background-color: #ba83ca;
+             height: 300px;
+             width: 400px;
+             border-radius: 15px;
+             padding: 10px;
+            
+}
+
+.debpage h1{
+               margin-top: 20px;
+               text-align: center;
+}
+
+.debpage input{
+                  margin-top: 70px;
+                   margin-left: 30%;
+                  
+}
+
+.debpage ::placeholder{
+                         color: white;
+                         font-weight: bolder;
+}
+
+.debpage button{
+                 margin-left: 30%;
+                 margin-top: 10px;
+
+}
+.debimain{
+              display: flex;
+              justify-content: center;
+              margin-top: 100px;
+}
+
+.debimain button{
+
+    background-color: #6a57c1;
+    border-radius: 15px;
+}
+
+.debimain input{
+    border:none;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+}

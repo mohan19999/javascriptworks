@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accountdetails</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="logpage.css">
+</head>
+<body>
+    <a href="dashboard.html"><button type="button" class="btn btn-primary"> Back</button></a>
+
+
+
+    <div class="container detmain" id="mytrans" style="display: none;">
+        
+        <div class="pop01">
+
+             
+            <a href="debitpage.html"><button onclick="debbtn()">Debit</button></a>
+
+           <a href="creditpage.html"><button onclick="credbtn()">Credit</button></a> 
+
+        </div>
+     
+     </div>
+
+     <!------------------------------------- credit pin------------------------------->
+
+    
+
+
+
+<div class="container detailmain">
+
+  
+
+    <div class="detail01">
+
+        
+         <h1> Account Details</h1>
+          
+         <h3>Account Holders Name :Marri Mohan</h3>
+         <h3>Account Number : 75689423515</h3>
+         <h3>IFSC Code : 009456</h3>
+         <h3>Amount : 10000</h3>
+        
+
+      <button onclick="trans()">Continue with Transaction</button>
+        
+    </div>
+
+
+</div>
+
+<script>
+
+function trans(){
+        //alert("actdetails");
+        document.getElementById('mytrans').style.display="block";
+        
+    }
+
+
+
+  
+ 
+
+
+
+
+</script>
+
+
+</body>
+</html>

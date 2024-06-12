@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+    <link rel="stylesheet" href="logpage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <a href="homepage.html"><button type="button" class="btn btn-info"> Home</button></a>
+
+
+    <div class="container main01 " id="myalert" style="display: none;">
+        
+        <div class="pop">
+           
+            <input type="number" placeholder="Enter Your Pin " id="pin">
+
+            <button onclick="subbtn()">Submit</button>
+        </div>
+     
+     </div>
+<!------------------------------------   ----------------------------------->
+
+     <div class="container main02" id="mycredit" style="display: none;">
+
+        <div class="creditpop">
+
+            <input type="number" placeholder="Enter Your Pin " id="pin01">
+
+            <button onclick="subbtn01()">Submit</button>
+
+        </div>
+
+
+     </div>
+<!------------------------------------    ----------------------------------->
+
+     <div class="container main03" id="mydebit" style="display: none;">
+
+        <div class="debitpop">
+
+            <input type="number" placeholder="Enter Your Pin " id="pin02">
+
+            <button onclick="subbtn02()">Submit</button>
+
+        </div>
+
+
+     </div>
+
+
+    
+<div class=" acount01 ">
+ 
+    
+
+
+     <div class="new">
+     
+        <h1>Account Details</h1>
+
+        <button onclick="details()">Ok</button>
+
+    </div>
+     
+     <div class="new" >
+     
+        <h1>Credit Details</h1>
+
+        <button onclick="creditdetails()">Ok</button>
+
+    </div>
+
+
+    
+    <div class="new">
+     
+        <h1>Debit Details</h1>
+
+        <button onclick="debitdetails()">Ok</button>
+
+    </div>
+
+
+</div>
+<script>
+    function details(){
+        //alert("actdetails");
+        document.getElementById('myalert').style.display="block";
+        
+    }
+
+    function subbtn(){
+
+        let btn=document.getElementById('pin').value;
+
+
+        
+        if(btn == 4444){
+                alert("Thanks");
+                location.href="Acountdetailspage.html";
+
+            }
+    }
+
+
+
+
+
+    function creditdetails(){
+        //alert("actdetails");
+        document.getElementById('mycredit').style.display="block";
+        
+    }
+
+    function subbtn01(){
+
+let btn=document.getElementById('pin01').value;
+
+
+
+if(btn == 4444){
+       
+        location.href="creditpage.html";
+
+    }
+}
+
+
+
+function debitdetails(){
+        //alert("actdetails");
+        document.getElementById('mydebit').style.display="block";
+        
+    }
+
+    function subbtn02(){
+
+let btn=document.getElementById('pin02').value;
+
+
+
+if(btn == 4444){
+       
+        location.href="debitpage.html";
+
+    }
+}
+
+
+   
+</script>
+
+</body>
+</html>

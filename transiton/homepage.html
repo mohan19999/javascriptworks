@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginpage</title>
+    <link rel="stylesheet" href="logpage.css">
+</head>
+<body>
+    
+    <div class="container mainpage">
+
+        <div class="log">
+
+            
+        
+            <h1> User Login</h1>
+
+       
+
+             <input type="text" placeholder="Acoount Number " id="ac-num"><br><br>
+
+             <input type="password" placeholder="Enter Your PIN" id="pswrd"><br><br>
+
+              <button onclick="result()"> Login</button> 
+           
+
+
+
+        </div>
+
+    </div>
+
+    <script>
+
+         function result(){
+
+            let Actnum=document.getElementById('ac-num').value;
+
+            //alert(Actnum);
+
+
+            let passwrd=document.getElementById('pswrd').value;
+
+           // alert(passwrd);
+
+            if(Actnum == 123456 && passwrd == 4444 ){
+                alert("login succesful");
+                location.href="dashboard.html";
+
+            }
+            
+             else if(Actnum !=123456 && passwrd!=4444){
+                alert(" please enter valid details");
+            }
+            else{
+                alert("Please Enter Valid Username");
+            }
+
+         }
+
+         
+
+    </script>
+</body>
+</html>

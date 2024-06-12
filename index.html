@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<style>
+
+body{
+      background-image: url(images/back01.jpg);
+}
+
+.trans{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         margin-top: 20%;
+}
+
+.subtrans{
+           width: 300px;
+          height: 300px;
+          margin: 1%;
+          padding: 2%;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+           
+}
+
+.subtrans:hover{
+    transform:  rotate(5deg);
+                        transition: 3s;
+}
+.subtrans img{
+    width: 300px;
+    height: 250px;
+    justify-content: center;
+
+}
+
+.subtrans img:hover{
+                        transform:  rotate(5deg);
+                        transition: 3s;
+                        
+                        
+}
+
+p{
+    text-align: center;
+    background-color: white;
+    height: 20px;
+    font-weight: bold;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 2%;
+    
+    
+}
+
+</style>
+
+
+
+<body>
+    
+<div class="trans">
+
+<a href="./transiton/homepage.html">
+<div class="subtrans">
+
+    <img src="images/trans01.jpg" alt="">
+
+    <p>Trasaction</p>
+
+
+</div>
+</a>
+
+<a href="./shopping filter/shphomepage.html">
+<div class="subtrans">
+
+    <img src="images/filtershop01.jpg" alt="">
+
+    <p>Shopping Filter</p>
+</div>
+</a>
+
+<a href="apicalling.html">
+<div class="subtrans">
+
+    <img src="images/api01.jpeg" alt="">
+
+    <p>API Calling</p>
+</div>
+</a>
+
+
+</div>
+    
+</body>
+</html>
