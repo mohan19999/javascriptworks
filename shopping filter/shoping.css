@@ -4,7 +4,14 @@
 
 
 
+.car-border{
 
+   
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 150px;
+    
+}
 .mainbox{
 
     display:flex;
@@ -282,6 +289,7 @@ background: linear-gradient(135deg, #B962A5, #2C8AE8);
 .menfootmain{
                 display: flex;
                 flex-wrap: wrap;
+                justify-content: space-around;
 }
 
 .submfoot{
@@ -321,6 +329,7 @@ i{
 .wmentop{
            display: flex;
            flex-wrap: wrap;
+           justify-content: space-evenly;
 }
 
 .subwtop{
@@ -360,6 +369,7 @@ i{
 .wmenbottom{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 100px;
 }
 
 .subwbtm{
@@ -398,6 +408,7 @@ font-size: 15px;
 .wmenfootwear{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 115px;
 }
 
 .subwfoot{
@@ -436,6 +447,7 @@ font-size: 15px;
 .kidstopwear{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 115px;
 }
 
 .subktop{
@@ -473,6 +485,7 @@ font-size: 15px;
 .kidsbtmwear{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 115px;
 }
 
 .subkbottom{
@@ -510,6 +523,9 @@ font-size: 15px;
 .kidsfootwear{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 115px;
+
+
 }
 
 .subkfoot{
